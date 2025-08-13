@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /test/
+
+Sitemap: https://kishan-thanki.github.io/thecoffeecorner/sitemap.xml
