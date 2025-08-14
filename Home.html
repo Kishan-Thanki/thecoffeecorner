@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Corner</title>
+    <meta name="description" content="The Coffee Corner is your go-to café for artisanal coffee, fresh pastries, and a cozy atmosphere in Pune.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #6b4f4f;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background-color: #c9a66b;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .video-section {
+            text-align: center;
+            margin: 20px;
+        }
+        video {
+            max-width: 90%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Coffee Corner</h1>
+        <p>Your daily dose of freshly brewed coffee and delicious snacks.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 style="text-align:center;">Our Specialties</h2>
+        <ul style="text-align:center; list-style:none;">
+            <li>Espresso</li>
+            <li>Cappuccino</li>
+            <li>Latte</li>
+            <li>Freshly Baked Croissants</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <img src="assets/Espresso.jpeg" alt="Espresso">
+        <img src="assets/Cappuccino.jpg" alt="Cappuccino">
+        <img src="assets/Latte.jpg" alt="Latte">
+        <img src="assets/Croissant with Coffee.jpg" alt="Croissant with Coffee">
+    </section>
+
+    <section class="video-section">
+        <h2>Watch How We Brew</h2>
+        <video controls>
+            <source src="assets/brewing.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section style="text-align:center;">
+        <h2>Visit Us</h2>
+        <p>Address: 123 Brew Street, Pune, India</p>
+        <p>Open: Mon–Sat, 8:00 AM – 8:00 PM</p>
+    </section>
+
+    <footer>
+        <p>Contact: info@coffeecorner.com | Phone: +91 9876543210</p>
+    </footer>
+</body>
+</html>
