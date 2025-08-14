@@ -4,19 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee Corner</title>
-    <meta name="description" content="The Coffee Corner is your go-to café for artisanal coffee, fresh pastries, and a cozy atmosphere in Pune.">
+    <script type="applications/ls+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CafeOrCoffeeShop",
+            "name": "The Coffee Corner",
+            "description": "A perfect spot for work, relaxation, or meeting friends. Fresh pastries, and a cozy atmosphere in Pune.", 
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Address: 123 Brew Street",
+                "addressLocality": "Pune",
+                "addressRegion": "MH",
+                "postalCode": "411001",
+                "addressCountry": "India"
+            },
+            "telephone": "+91 9876543210",
+            "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00AM - 08:00PM",
+            "url": "http://www.thecoffeecorner.com",
+        }
+    </script>
+    <meta name="description"
+        content="The Coffee Corner is your go-to café for artisanal coffee, fresh pastries, and a cozy atmosphere in Pune.">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-        header, footer {
+
+        header,
+        footer {
             background-color: #6b4f4f;
             color: white;
             text-align: center;
             padding: 1em;
         }
+
         nav ul {
             display: flex;
             justify-content: center;
@@ -24,13 +47,16 @@
             background-color: #c9a66b;
             padding: 0;
         }
+
         nav ul li {
             margin: 0 15px;
         }
+
         nav ul li a {
             text-decoration: none;
             color: white;
         }
+
         .gallery {
             display: flex;
             flex-wrap: wrap;
@@ -38,15 +64,18 @@
             gap: 15px;
             padding: 20px;
         }
+
         .gallery img {
             width: 300px;
             height: auto;
             border-radius: 8px;
         }
+
         .video-section {
             text-align: center;
             margin: 20px;
         }
+
         video {
             max-width: 90%;
             border-radius: 8px;
@@ -78,15 +107,15 @@
     </section>
 
     <section class="gallery">
-        <img src="assets/Espresso.jpeg" alt="Espresso">
-        <img src="assets/Cappuccino.jpg" alt="Cappuccino">
-        <img src="assets/Latte.jpg" alt="Latte">
-        <img src="assets/Croissant with Coffee.jpg" alt="Croissant with Coffee">
+        <img src="assets/Espresso.jpeg" alt="Espresso" loading="lazy">
+        <img src="assets/Cappuccino.jpg" alt="Cappuccino" loading="lazy">
+        <img src="assets/Latte.jpg" alt="Latte" loading="lazy">
+        <img src="assets/Croissant with Coffee.jpg" alt="Croissant with Coffee" loading="lazy">
     </section>
 
     <section class="video-section">
         <h2>Watch How We Brew</h2>
-        <video controls>
+        <video controls loading="lazy">
             <source src="assets/brewing.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
